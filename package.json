@@ -1,0 +1,22 @@
+{
+  "name": "ai-content-workflow",
+  "version": "0.1.0",
+  "description": "Multi-step AI editorial pipeline with the Vercel AI SDK — structured brief generation, grounded drafting, and automated SEO/schema verification",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "demo": "node dist/pipeline.js"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.0.0",
+    "ai": "^4.1.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": ["vercel-ai-sdk", "ai-agents", "workflow", "structured-output", "seo", "typescript"],
+  "author": "Zayne Lovecraft",
+  "license": "MIT"
+}
