@@ -1,6 +1,11 @@
 # ai-content-workflow ⚙️
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Article](https://img.shields.io/badge/Deep_Dive-Read_Post-10b981)](https://www.zaynelovecraft.com/articles/building-custom-mcp-servers-typescript-youtube-skills)
+
 A multi-step, schema-enforced AI editorial pipeline built on the **Vercel AI SDK** (`generateObject` + `generateText`) and **Zod**.
+
+> 📖 **Read the full engineering breakdown:** [Building Custom MCP Servers in TypeScript for Cursor](https://www.zaynelovecraft.com/articles/building-custom-mcp-servers-typescript-youtube-skills)
 
 Instead of one-shotting an LLM prompt and getting generic slop, this pipeline splits publishing into three deterministic stages with a strict quality gate:
 
