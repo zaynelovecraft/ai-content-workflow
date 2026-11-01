@@ -1,11 +1,21 @@
 {
   "name": "ai-content-workflow",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Multi-step AI editorial pipeline with the Vercel AI SDK — structured brief generation, grounded drafting, and automated SEO/schema verification",
   "type": "module",
+  "main": "./dist/pipeline.js",
+  "types": "./dist/pipeline.d.ts",
+  "bin": {
+    "ai-content-workflow": "./dist/cli.js"
+  },
+  "files": ["dist", "src", "tsconfig.json"],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsc",
-    "demo": "node dist/pipeline.js"
+    "prepare": "tsc",
+    "start": "node dist/cli.js"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^1.0.0",
