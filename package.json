@@ -1,14 +1,18 @@
 {
   "name": "ai-content-workflow",
-  "version": "0.2.0",
-  "description": "Multi-step AI editorial pipeline with the Vercel AI SDK — structured brief generation, grounded drafting, and automated SEO/schema verification",
+  "version": "1.0.0",
+  "description": "Multi-step AI editorial pipeline with the Vercel AI SDK \u2014 structured brief generation, grounded drafting, and automated SEO/schema verification",
   "type": "module",
   "main": "./dist/pipeline.js",
   "types": "./dist/pipeline.d.ts",
   "bin": {
     "ai-content-workflow": "./dist/cli.js"
   },
-  "files": ["dist", "src", "tsconfig.json"],
+  "files": [
+    "dist",
+    "src",
+    "tsconfig.json"
+  ],
   "engines": {
     "node": ">=18"
   },
@@ -26,7 +30,14 @@
     "@types/node": "^22.0.0",
     "typescript": "^5.7.0"
   },
-  "keywords": ["vercel-ai-sdk", "ai-agents", "workflow", "structured-output", "seo", "typescript"],
+  "keywords": [
+    "vercel-ai-sdk",
+    "ai-agents",
+    "workflow",
+    "structured-output",
+    "seo",
+    "typescript"
+  ],
   "author": "Zayne Lovecraft",
   "license": "MIT"
 }
