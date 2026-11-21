@@ -1,5 +1,7 @@
 # ai-content-workflow ⚙️
 
+[![CI](https://github.com/zaynelovecraft/ai-content-workflow/actions/workflows/ci.yml/badge.svg)](https://github.com/zaynelovecraft/ai-content-workflow/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/zaynelovecraft/ai-content-workflow)](https://github.com/zaynelovecraft/ai-content-workflow/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Article](https://img.shields.io/badge/Deep_Dive-Read_Post-10b981)](https://www.zaynelovecraft.com/articles/building-custom-mcp-servers-typescript-youtube-skills)
 
